@@ -39,7 +39,7 @@ function App() {
       </div>
       <div className="divider"></div>
       <div className="btn-container">
-        <button role="button" aria-label="Generate new advice"  id="generate" className="btn" onClick={refetch}></button>
+        <button aria-label="Generate new advice"  id="generate-advice" className="btn" onClick={refetch}></button>
       </div>
     </main>
   );
