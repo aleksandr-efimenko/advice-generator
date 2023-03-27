@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <main className="App">
+    <div className="App">
       <h1 className="advice-header">Advice #{adviceNumber}</h1>
       <div className="advice-quote">
         <q>{renderAdvice()}</q>
@@ -41,7 +41,7 @@ function App() {
       <div className="btn-container">
         <button aria-label="Generate new advice"  id="generate-advice" className="btn" onClick={refetch}></button>
       </div>
-    </main>
+    </div>
   );
 }
 
