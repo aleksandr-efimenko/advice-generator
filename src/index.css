@@ -105,7 +105,7 @@ q {
 
 @media (max-width: 768px) {
   #root {
-    padding: auto 1rem;
+    margin-inline: 1rem;
   }
 
   .App {
