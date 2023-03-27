@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 :root {
   --light-cyan: hsl(193, 38%, 86%);
@@ -9,6 +9,29 @@
   --darkblue: hsl(218, 23%, 16%);
 
   --font-size-quote: 28px;
-  --font-family: [Manrope](https://fonts.google.com/specimen/Manrope);
+  --ff-primary: 'Manrope', sans-serif;
   --fw-quote: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-primary);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--darkblue);
+}
+
+.App {
+  background-color: var(--dark-grayish-blue);
+}
+
+h1{
+  color: var(--neon-green);
 }
